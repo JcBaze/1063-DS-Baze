@@ -3,6 +3,6 @@
 Name: Jesse Baze
 
 Image: 
-https://gyazo.com/ed1fe8fcc1112efa9a47272ef9aa54c9
+https://user-images.githubusercontent.com/35582566/35421142-2272e7f4-0207-11e8-9595-1feadd35b872.jpg
 
 Email: Jessebaze29@gmail.com
