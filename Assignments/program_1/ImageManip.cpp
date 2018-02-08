@@ -191,7 +191,7 @@ public:
 		cout << "12 for Grayscale and Vertically flippped.\n";
 		cout << "13 for Grayscale and Horizontally flippped.\n";
 
-	start:
+	Uinput:
 		cin >> input;
 
 		if (input == 1)
@@ -223,7 +223,7 @@ public:
 			cout would just loop infinitely and break the program..*/
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
-			goto start; /* will go back to the cin and allow the user to 
+			goto Uinput; /* will go back to the cin and allow the user to 
 						enter an input again */
 		}
 	}
