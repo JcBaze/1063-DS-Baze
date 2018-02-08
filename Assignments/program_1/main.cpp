@@ -1,5 +1,5 @@
 /*
-* @ProgramName: Program 1
+* @ProgramName: Program 1 - Image Manipulation
 * @Author: Jesse Baze
   @Description: This program reads a txt. file of (RGB) values of an image
    allowing the user to pick any of the 5 options to manipulate the image.
@@ -15,6 +15,8 @@
 
 using namespace std;
 
+//main will call to the ChangeImage class to do all the
+//manipulation and user input. 
 int main()
 {
 	ChangeImage edImage;
