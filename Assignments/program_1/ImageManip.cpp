@@ -1,12 +1,11 @@
 /*
   @ProgramName: Program 1 - Image Manipulation
   @Author: Jesse Baze
-  @Description: This program reads the txt. (RGB) values of an image
-  allowing the user to pick any of the 5 options to manipulate the
-  image to their choice.
+  @Description: This program reads a txt. file of (RGB) values of an image
+	allowing the user to pick any of the 5 options to manipulate the image.
   @Course: 1063 Data Structures
   @Semester: Spring 2018
- @Date: 1-28-2018
+  @Date: 1-28-2018
 */
 
 #include<iostream>
@@ -34,6 +33,7 @@ private:
 	ifstream infile;
 	ofstream outfile;
 
+public:
 	/*
 	  @FunctionName: ReadFile
 	  @Description: reads the image from the txt and store the RGB values in an array.
@@ -95,7 +95,6 @@ private:
 		}
 	}
 
-public:
 	/*
 	  @FunctionName: flipvert
 	  @Description: the image will be flipped vertically
@@ -108,8 +107,6 @@ public:
 	*/
 	void flipvert()
 	{
-		Readfile();
-
 		rgb tempArray;
 
 		for (int i = 0; i < height / 2; i++)
@@ -121,7 +118,6 @@ public:
 				imageArray[height - 1 - i][j] = tempArray;
 			}
 		}
-		Printfile();
 	}
 
 	/*
@@ -136,8 +132,6 @@ public:
 	*/
 	void fliphorz()
 	{
-		Readfile();
-
 		rgb tempArray;
 
 		for (int i = 0; i < height; i++)
@@ -149,7 +143,6 @@ public:
 				imageArray[i][width - 1 - j] = tempArray;
 			}
 		}
-		Printfile();
 	}
 
 	/* 
@@ -164,8 +157,6 @@ public:
 	*/
 	void grayscale()
 	{
-		Readfile();
-
 		int gray;
 
 		for (int i = 0; i < height; i++)
@@ -179,100 +170,12 @@ public:
 				imageArray[i][j].b = gray;
 			}
 		}
-		Printfile();
 	}
-
-	/*
-	@FunctionName: Vertgrayscale
-	@Description: the images color will be changed to grayscale, then
-	will be flipped vertically
-	@Params:
-	rgb **imageArray - 2D array holding the RGB values
-	int height - height of the image
-	int width - width of the image
-	@Returns:
-	void
-	*/
-	void Vertgrayscale()
-	{
-		Readfile();
-
-		int gray;
-		rgb tempArray;
-		
-		//Vertical flip
-		for (int i = 0; i < height / 2; i++)
-		{
-			for (int j = 0; j < width; j++)
-			{
-				tempArray = imageArray[i][j];
-				imageArray[i][j] = imageArray[height - 1 - i][j];
-				imageArray[height - 1 - i][j] = tempArray;
-			}
-		}
-		
-		//Grayscalling the image
-		for (int i = 0; i < height; i++)
-		{
-			for (int j = 0; j < width; j++)
-			{
-				gray = (imageArray[i][j].r + imageArray[i][j].g + imageArray[i][j].b) / 3;
-
-				imageArray[i][j].r = gray;
-				imageArray[i][j].g = gray;
-				imageArray[i][j].b = gray;
-			}
-		}
-		Printfile();
-	}
-
-	/*
-	@FunctionName: Horzgrayscale
-	@Description: the images color will be changed to grayscale, then
-	will be horizontally flipped
-	@Params:
-	rgb **imageArray - 2D array holding the RGB values
-	int height - height of the image
-	int width - width of the image
-	@Returns:
-	void
-	*/
-	void Horzgrayscale()
-	{
-		Readfile();
-
-		int gray;
-		rgb tempArray;
-
-		//Horizontal Flip
-		for (int i = 0; i < height; i++)
-		{
-			for (int j = 0; j < (width / 2); j++)
-			{
-				tempArray = imageArray[i][j];
-				imageArray[i][j] = imageArray[i][width - 1 - j];
-				imageArray[i][width - 1 - j] = tempArray;
-			}
-		}
-		//Grayscale
-		for (int i = 0; i < height; i++)
-		{
-			for (int j = 0; j < width; j++)
-			{
-				gray = (imageArray[i][j].r + imageArray[i][j].g + imageArray[i][j].b) / 3;
-
-				imageArray[i][j].r = gray;
-				imageArray[i][j].g = gray;
-				imageArray[i][j].b = gray;
-			}
-		}
-		Printfile();
-	}
-
+	
 	/*
 	@FunctionName: userinput
-	@Description: Asks the user which manipulation of the image
-	the would like to preform
+	@Description: Will ask the user which way they would like to
+	manipulate the image from any of the 5 choices.
 	@Params:
 	none
 	@Returns:
@@ -301,10 +204,16 @@ public:
 			fliphorz();
 
 		else if (input == 12)
-			Vertgrayscale();
+		{
+			grayscale();
+			flipvert();
+		}
 
 		else if (input == 13)
-			Horzgrayscale();
+		{
+			grayscale();
+			fliphorz();
+		}
 
 		else
 		{
@@ -316,7 +225,6 @@ public:
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			goto start; /* will go back to the cin and allow the user to 
 						enter an input again */
-
 		}
 	}
 };
