@@ -1,5 +1,4 @@
 3)
-int size = 10;
 int *A = new int[size];
 
 4)
