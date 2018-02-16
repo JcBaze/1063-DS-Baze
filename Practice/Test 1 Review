@@ -108,3 +108,14 @@ Stats Cals(int A[], int size)
 }
 
 12)
+States(int MIN, int MAX, double A)
+
+{
+
+min = MIN;
+
+max = MAX;
+
+avg = A;
+
+}
