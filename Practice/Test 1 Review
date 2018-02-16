@@ -4,7 +4,7 @@ int *A = new int[size];
 
 4)
 int **B = new int *[x];
-	for (int i=0; i<y; i++)
+	for (int i=0; i<x; i++)
 	{
 		B[i] = new int [y];
 	}
