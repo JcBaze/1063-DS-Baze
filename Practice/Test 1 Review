@@ -108,7 +108,7 @@ Stats Cals(int A[], int size)
 }
 
 12)
-States(int MIN, int MAX, double A)
+Stats(int MIN, int MAX, double A)
 
 {
 
@@ -118,4 +118,4 @@ max = MAX;
 
 avg = A;
 
-}
+};
