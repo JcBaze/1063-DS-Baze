@@ -1,4 +1,5 @@
 3)
+int size = 10;
 int *A = new int[size];
 
 4)
@@ -20,14 +21,15 @@ int sumArray(int A[], int size)
 }
 
 6)
-int sumArray(int A[], int size)
+int smallest2DArray(int **B, int height, int width)
 {
-	int smallest = A[0];
-	for (int i = 1; i < size; i++)
+	int smallest = B[0][0];
+	for (int i = 0; i < height; i++)
 	{
-		if (A[i] < smallest)
+		for (int j = 0; j < width; j++)
 		{
-			smallest = A[i];
+			if (B[i][j] <= smallest)
+				smallest = B[i][j];
 		}
 	}
 	return smallest;
@@ -44,9 +46,9 @@ void evenSum(int A[], int size)
 }
 
 8)
-void copyArray(int A[10], int B[10])
+void copyArray(int A[], int B[])
 {
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < size; i++)
 	{
 		B[i] = A[i];
 	}
