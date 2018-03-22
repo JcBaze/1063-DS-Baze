@@ -20,22 +20,16 @@ int main()
 	cout << "Enter the lowest number. \n";
 	cin >> low;
 
-	if (low < 0)
+	cout << "Enter the highest number. \n";
+	cin >> high;
+
+
+	if (low > high)
 	{
-		cout << "Enter the highest number. \n";
-		cin >> high;
-
-		high = (-1 * low) + high + 1;
-		cout << endl;
+		cout << "lowest must be the smallest number, dumbass\n";
+		system("pause");
+		exit(0);
 	}
-
-	else
-	{
-		cout << "Enter the highest number. \n";
-		cin >> high;
-		cout << endl;
-	}
-
 
 	for (int i = 0; i < size; i++)
 	{
