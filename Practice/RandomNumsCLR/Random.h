@@ -328,7 +328,7 @@ namespace RandomNumbers {
 			amount->Text = "";
 			small->Text = "";
 			large->Text = "";
-			highi = 69;
+			highi = 69; //aren't I so funny...
 		}
 
 		for (i = 0; i < sizei; i++)
