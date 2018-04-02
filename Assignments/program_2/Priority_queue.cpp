@@ -1,22 +1,22 @@
 ////////////////////////////////////////////////////////////////////////////////
 //																			  //
-// Title:            Priority Queue											  //
-// Files:            input_data.txt											  //
-// Semester:         CMPS 1063 Spring 2018                                    //
+// Title:            Priority Queue                                           
+// Files:            input_data.txt											  
+// Semester:         CMPS 1063 Spring 2018                                    
 //																			  //
-// Author:           Jesse Baze												  //
-// Email:            jessebaze29@gmail.com									  //
+// Author:           Jesse Baze												  
+// Email:            jessebaze29@gmail.com									  
 // Description:																  //
-//       This program will read the one of the instructions "push" or "pop"	  //
-//	if the instruction is push it will read the name of an animal on push it  //
-//  into the list. If the instruction is pop it will pop off the next animal  // 
-//	that is in line from the queue.											  //
-//		 The file "priority_out.txt" is organized where the pops			  //
-//  are at the top of the file, they are numbered and displayed in the	      //
-//	ordered they were popped. The bottom of the file displays the animals     //
-//  that are left in the queue, these animals are organized by one, shorter   //
-//  names have higher priority, and two, if two or more animals names are the //
-//  same length it will then alphabetically order those animals.              //
+//       This program will read the one of the instructions "push" or "pop"	  
+//	if the instruction is push it will read the name of an animal on push it  
+//  into the list. If the instruction is pop it will pop off the next animal  
+//	that is in line from the queue.											  
+//		 The file "priority_out.txt" is organized where the pops			  
+//  are at the top of the file, they are numbered and displayed in the	      
+//	ordered they were popped. The bottom of the file displays the animals     
+//  that are left in the queue, these animals are organized by one, shorter   
+//  names have higher priority, and two, if two or more animals names are the 
+//  same length it will then alphabetically order those animals.              
 ////////////////////////////////////////////////////////////////////////////////
 
 
