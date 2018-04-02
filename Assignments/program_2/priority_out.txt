@@ -1,0 +1,247 @@
+Animals Popped off the Queue:
+
+  1 crow
+  2 elephant-seal
+  3 caterpillar
+  4 giant-panda
+  5 hippopotamus
+  6 water-buffalo
+  7 wombat
+  8 guinea-fowl
+  9 trout
+ 10 hummingbird
+ 11 sand-dollar
+ 12 error: cannot pop off an empty queue.
+ 13 error: cannot pop off an empty queue.
+ 14 chimpanzee
+ 15 salmon
+ 16 chinchilla
+ 17 error: cannot pop off an empty queue.
+ 18 error: cannot pop off an empty queue.
+ 19 oryx
+ 20 polar-bear
+ 21 boar
+ 22 error: cannot pop off an empty queue.
+ 23 salamander
+ 24 donkey
+ 25 woodpecker
+ 26 error: cannot pop off an empty queue.
+ 27 error: cannot pop off an empty queue.
+ 28 albatross
+ 29 squirrel
+ 30 turkey
+ 31 barracuda
+ 32 butterfly
+ 33 human
+ 34 clam
+ 35 hawk
+ 36 toad
+ 37 penguin
+ 38 cormorant
+ 39 crocodile
+ 40 kookabura
+ 41 pheasant
+ 42 anteater
+ 43 partridge
+ 44 sea-lion
+ 45 frog
+ 46 pony
+ 47 wren
+ 48 tapir
+ 49 dinosaur
+ 50 dotterel
+ 51 goldfish
+ 52 kangaroo
+ 53 dogfish
+ 54 lyrebird
+ 55 mandrill
+ 56 porcupine
+ 57 red-panda
+ 58 sandpiper
+ 59 porpoise
+ 60 spoonbill
+ 61 cheetah
+ 62 koala
+ 63 moose
+ 64 red-deer
+ 65 buffalo
+ 66 reindeer
+ 67 fly
+ 68 caribou
+ 69 quail
+ 70 fox
+ 71 finch
+ 72 shrew
+ 73 heron
+ 74 chicken
+ 75 bison
+ 76 gnu
+ 77 walrus
+ 78 ape
+ 79 dog
+ 80 eland
+ 81 mouse
+ 82 viper
+ 83 dolphin
+ 84 gazelle
+ 85 ibis
+ 86 giraffe
+ 87 gorilla
+ 88 wasp
+ 89 guanaco
+ 90 spider
+ 91 deer
+ 92 louse
+ 93 herring
+ 94 kouprey
+ 95 goose
+ 96 alpaca
+ 97 baboon
+ 98 mallard
+ 99 narwhal
+100 badger
+101 hyena
+102 eel
+103 eagle
+104 sheep
+105 coyote
+106 dugong
+107 dunlin
+108 falcon
+109 ferret
+110 gerbil
+111 grouse
+112 hornet
+113 jackal
+114 jaguar
+115 whale
+116 locust
+117 camel
+118 cobra
+119 crane
+120 magpie
+121 horse
+122 mantis
+123 cattle
+124 marten
+125 monkey
+126 hare
+127 llama
+128 loris
+129 oyster
+130 parrot
+131 okapi
+132 otter
+133 pigeon
+134 raven
+135 shark
+136 rabbit
+137 turtle
+138 cat
+139 weasel
+140 skunk
+141 chamois
+142 echidna
+143 snail
+144 lemur
+145 squid
+146 hamster
+147 stork
+148 emu
+149 tiger
+150 vicua
+151 goshawk
+152 meerkat
+153 octopus
+154 zebra
+155 bear
+156 leopard
+157 opossum
+158 crab
+159 owl
+160 ostrich
+161 dove
+162 panther
+163 duck
+164 fish
+165 pelican
+166 gaur
+167 gnat
+168 goat
+169 gull
+170 ibex
+171 kudu
+172 lark
+173 lion
+174 mink
+175 mole
+176 mule
+177 newt
+178 rail
+179 rook
+180 seal
+181 ant
+182 wolf
+183 bat
+184 bee
+185 worm
+186 cod
+187 snake
+188 beaver
+189 elk
+190 jay
+191 pig
+192 ram
+193 rat
+194 ox
+195 yak
+196 swan
+197 chough
+198 curlew
+199 quelea
+200 lapwing
+201 lobster
+202 manatee
+203 peafowl
+204 quetzal
+205 raccoon
+206 sardine
+207 sparrow
+208 swallow
+209 tarsier
+210 termite
+211 vulture
+212 wallaby
+213 aardvark
+214 antelope
+215 capybara
+
+Animals Remaining on the Queue (in order of priorty):
+
+ 1 elephant
+ 2 flamingo
+ 3 hedgehog
+ 4 mongoose
+ 5 mosquito
+ 6 scorpion
+ 7 seahorse
+ 8 starling
+ 9 stingray
+10 stinkbug
+11 woodcock
+12 alligator
+13 armadillo
+14 cassowary
+15 cockroach
+16 dragonfly
+17 goldfinch
+18 jellyfish
+19 wolverine
+20 guinea-pig
+21 kingfisher
+22 rhinoceros
+23 sea-urchin
+24 grasshopper
+25 nightingale
+26 prairie-dog
+27 komodo-dragon
