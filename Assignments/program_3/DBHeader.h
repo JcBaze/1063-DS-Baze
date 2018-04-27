@@ -7,7 +7,7 @@
 // Author:           Jesse Baze	 					      //
 // Email:            jessebaze29@gmail.com				      //
 // Description:								      //
-//		Based on "Flavius Josephus" problem he encounter, this        //
+//	Based on "Flavius Josephus" problem he encounter, this        	      //
 // program pursures to display the journey of the problem. His problem threw  //
 // him into a circle where every 3rd spot that person would have to commit    //
 // suicide, until there was a soul survivor. Now to what the program does.    //
