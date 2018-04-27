@@ -1,17 +1,17 @@
 ////////////////////////////////////////////////////////////////////////////////
-//																			  //
+//									      //									  //
 // Title:            Survival of the Lucky                                    //
-// Files:            animals.txt											  //
+// Files:            animals.txt					      //
 // Semester:         CMPS 1063 Spring 2018                                    //
-//																			  //
-// Author:           Jesse Baze												  //
-// Email:            jessebaze29@gmail.com									  //
-// Description:																  //
-//				Based on "Flavius Josephus" problem he encounter, this        //
+//									      //									  //
+// Author:           Jesse Baze	 					      //
+// Email:            jessebaze29@gmail.com				      //
+// Description:								      //
+//		Based on "Flavius Josephus" problem he encounter, this        //
 // program pursures to display the journey of the problem. His problem threw  //
 // him into a circle where every 3rd spot that person would have to commit    //
 // suicide, until there was a soul survivor. Now to what the program does.    //
-//				Instead of a physical circle the program will use a circular  //
+//	Instead of a physical circle the program will use a circular          //
 // linked list to store in this case the names of animals. Instead of every   //
 // third animal being picked the user will be asked to give a number between  //
 // 1 and 13 and the number will be multiplyed by the character length of      //
